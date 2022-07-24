@@ -32,7 +32,7 @@ class NobleNotify(commands.Bot):
 
     async def presence(self):
         status = self.status()
-        await self.change_presence(activity=discord.Game(name="looking for Pings", status=status))
+        await self.change_presence(activity=discord.Game(name=self.config.activity, status=status))
 
     def status(self):
         if int(self.config.status) == 0:
