@@ -1,0 +1,14 @@
+{
+  "Bot": {
+    "Token": "YOUR TOKEN",
+    "Prefix": "PREFIX",
+    "Description": "DESCRIPTION",
+    "Status": 0,
+    "Color": "EMBED COLOR HEX",
+    "Icon": "FOOTER ICON URL"
+  },
+  "log": null,
+  "save": false,
+  "guild": null
+
+}
