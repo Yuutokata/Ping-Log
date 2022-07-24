@@ -3,6 +3,7 @@
     "Token": "YOUR TOKEN",
     "Prefix": "PREFIX",
     "Description": "DESCRIPTION",
+    "Activity": "Your Activity",
     "Status": 0,
     "Color": "EMBED COLOR HEX",
     "Icon": "FOOTER ICON URL"
