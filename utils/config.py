@@ -12,6 +12,7 @@ class Config:
         self.status = config["Bot"]["Status"]
         self.color = config["Bot"]["Color"]
         self.icon = config["Bot"]["Icon"]
+        self.activity = config["Bot"]["Activity"]
 
         self.guild = config["guild"]
         self.log = config["log"]
