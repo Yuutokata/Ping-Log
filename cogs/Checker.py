@@ -19,9 +19,9 @@ class Checker(commands.Cog):
                 embed = discord.Embed(
                     title="Ping!",
                     color=int(config.color, 16),
-                    description=f">>> **Von: {ctx.author.mention}\n Channel: {ctx.channel.mention} \n Role: {role.mention}**")
+                    description=f">>> **From: {ctx.author.mention}\n Channel: {ctx.channel.mention} \n Role: {role.mention}**")
                 embed.set_thumbnail(url=ctx.author.avatar)
-                embed.set_footer(text="NobleNotify", icon_url=config.icon)
+                embed.set_footer(text="Ping-Log", icon_url=config.icon)
                 embed.timestamp = datetime.datetime.now()
                 button = Button(label="Ping!", style=discord.ButtonStyle.url, url=f"{ctx.jump_url}")
                 view = View(timeout=None)
