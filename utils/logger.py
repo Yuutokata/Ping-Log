@@ -90,7 +90,7 @@ class CustomFormatter(logging.Formatter):
         return super().format(record)
 
 
-logger = logging.getLogger("NobleNotify")
+logger = logging.getLogger("Bot")
 logger.setLevel(logging.DEBUG)
 
 console_handler = logging.StreamHandler()
