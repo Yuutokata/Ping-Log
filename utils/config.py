@@ -15,5 +15,4 @@ class Config:
         self.activity = config["Bot"]["Activity"]
 
         self.guild = config["guild"]
-        self.log = config["log"]
         self.save = config["save"]
